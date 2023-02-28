@@ -6,3 +6,5 @@ This code encodes any file to a video, shrinking the size enourmously. The idea 
 Modify the code accordingly to your needs, it is very simple. 
 
 To run the code, call main() with the file path as argument. For video functionality, you must have FFmpeg installed on your system.
+
+There are a ton of bugs right now, and the code is much slower than optimal. I will add decoding ability and optimize later.
