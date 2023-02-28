@@ -26,11 +26,8 @@ def main(file):
     
     
   
-main(file_to_b64('/Users/Raine/Documents/iphone-unlocker-mac.dmg'))
+main(file_to_b64('/Users/433MEA/Documents/iphone-unlocker-mac.dmg')) #file size 48,469,801 bytes reduced to 2,111,863
 
-
-#[(ord(inp[i]),ord(inp[i+1]),ord(inp[i+2]),ord(inp[i+3])) for i in range(0,len(inp)-5,4)]
-  #return img.tobytes()
 
 
 
