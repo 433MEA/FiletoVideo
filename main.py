@@ -18,7 +18,7 @@ def main(file):
   for i in range(0,len(file),33177600):
     b64_to_img(file[i:i+33177600],counter)
     counter += 1
-  video = get_writer('encoded.mp4',fps=60)
+  video = get_writer('encoded.mp4',fps=60,pixelformat='rgba')
   for i in range(counter):
     video.append_data(imread(f'image{str(i)}.png'))
   video.close()
